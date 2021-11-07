@@ -44,7 +44,7 @@ const TodoLists = ({todo, setTodo}) => {
              } 
              </div>
              <div className="itemauthor">
-                 <span>Author:</span> <span>Abhishek</span>
+                 <span>Author:</span> <span>{todo.author}</span>
              </div>
              <div className="itemdate">
                  <span>Date:</span><span style={{marginLeft: "4%"}}>{moment(todo.date).fromNow()}</span>
