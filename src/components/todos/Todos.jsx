@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import './Todos.css'
 import TodoLists from './TodoLists';
 import Slide from '@material-ui/core/Slide';
@@ -7,7 +7,6 @@ import {Scrollbars} from 'react-custom-scrollbars';
 import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux'
 import { getTodos } from '../../store/actions/todoActions'
-import AddTodo from './AddTodo'
 
 const Todos = ({ setTodo }) => {
     const trigger = useScrollTrigger();
