@@ -8,7 +8,7 @@ import Signup from './components/auth/Signup';
 import Signin from './components/auth/Signin';
 import { loadUser } from './store/actions/authAction'
 
-import { ToastContainer, useToastContainer } from "react-toastify"
+import { ToastContainer} from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
 function App() {
