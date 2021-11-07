@@ -1,0 +1,64 @@
+.Todos{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 80%;
+    margin: 5% 5% 10% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputfieldforitem{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+}
+.additem{
+    width: 76%;
+    height:60%;
+    outline: none;
+    border: none;
+    border-radius:5px;
+    background-color:white;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding-left: 2%;
+    color: #323440;
+}
+.addicons{
+    margin-left: -7%;
+    margin-top: 2.7%;
+}
+
+.itemList{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 80%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TodoLists{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 0%;
+    border-radius: 10px;
+    background-color:white;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(255,255,255,0.5);
+    display: flex;
+    flex-direction: column;
+}
+.listtile{
+    font-family: 'Rokkitt', serif;
+    font-size: 24px;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: #323440;
+    font-weight: bold;
+}
